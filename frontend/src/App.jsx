@@ -4,6 +4,7 @@ import axios from "axios";
 
 function App() {
     const [jokes, setjokes] = useState([]);
+    // added state
 
     useEffect(() => {
         axios
